@@ -42,9 +42,9 @@ function evalString(expression) {
   }
 }
 
-// Testing the evaluator
-evalString("2 + 3"); // Valid expression
-evalString("5 / 0"); // OutOfRangeError
-evalString("2 ++ 3"); // InvalidExprError
-evalString("+5 * 4"); // SyntaxError
-evalString("3 -"); // SyntaxError
+// // Testing the evaluator
+// evalString("2 + 3"); // Valid expression
+// evalString("5 / 0"); // OutOfRangeError
+// evalString("2 ++ 3"); // InvalidExprError
+// evalString("+5 * 4"); // SyntaxError
+// evalString("3 -"); // SyntaxError
