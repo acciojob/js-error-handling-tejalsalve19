@@ -1,11 +1,4 @@
 //your code here
-class InvalidExprError extends Error {
-  constructor() {
-    super();
-    this.name = this.constructor.name;
-    this.message = 'Expression should not have an invalid combination of operators';
-  }
-}
 
 function evalString(expression) {
   try {
